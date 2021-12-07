@@ -67,8 +67,7 @@ The latest release of the project deployed in the [Dx29 application](https://dx2
 >- POST request
 >- URL: http://127.0.0.1:8080/api/v1/calculate
 >- Body request: 
-> ``` {"list_reference":<list of the patient symptoms ids (string)>, 
-"list_compare":<list of the disease symptoms ids (string)>]} ```
+> ``` {"list_reference":<list of the patient symptoms ids (string)>, "list_compare":<list of the disease symptoms ids (string)>]} ```
 >- Result request: List of objetcs with:
 >>- Symptom identifier (HP)
 >>- HasPatient and HasDisease booleans, indicating if the patient and if the disease has or not this symptom.

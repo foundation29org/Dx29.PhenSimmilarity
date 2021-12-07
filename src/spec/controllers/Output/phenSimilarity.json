@@ -1,0 +1,55 @@
+{
+    "all_keys": [
+        {
+            "Id": "HP:0001250",
+            "HasPatient": true,
+            "HasDisease": true,
+            "Relationship": "Equal",
+            "RelatedId": "HP:0001250",
+            "Score": 100
+        },
+        {
+            "Id": "HP:0012638",
+            "HasPatient": true,
+            "HasDisease": true,
+            "Relationship": "Predecessor",
+            "RelatedId": "HP:0001250",
+            "Score": 50
+        },
+        {
+            "Id": "HP:0000118",
+            "HasPatient": true,
+            "HasDisease": true,
+            "Relationship": "Successor",
+            "RelatedId": "HP:0012638",
+            "Score": 50
+        },
+        {
+            "Id": "HP:0012638",
+            "HasPatient": true,
+            "HasDisease": false,
+            "Relationship": "Successor",
+            "RelatedId": "HP:0000118",
+            "Score": 50
+        },
+        {
+            "Id": "HP:0009115",
+            "HasPatient": true,
+            "HasDisease": false,
+            "Relationship": "None",
+            "RelatedId": null,
+            "Score": 0
+        },
+        {
+            "Id": "HP:0040064",
+            "HasPatient": false,
+            "HasDisease": true,
+            "Relationship": "None",
+            "RelatedId": null,
+            "Score": 0
+        }
+    ],
+    "only_reference": [],
+    "only_compare":[],
+    "empty_lists": []
+}

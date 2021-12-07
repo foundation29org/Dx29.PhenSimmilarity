@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="[Validate Service]" errors="0" tests="0" failures="0" time="0" timestamp="2021-10-18T08:57:43">
+</testsuite>
+<testsuite name="[Validate Service].[ValidateBody function]" errors="0" tests="0" failures="0" time="0" timestamp="2021-10-18T08:57:43">
+</testsuite>
+<testsuite name="[Validate Service].[ValidateBody function].[Correct values]" errors="0" tests="1" failures="0" time="0.001" timestamp="2021-10-18T08:57:43">
+  <testcase classname="[Validate Service].[ValidateBody function].[Correct values]" name="Validate function with a correct json input" time="0.001"></testcase>
+</testsuite>
+<testsuite name="[Validate Service].[ValidateBody function].[Error values]" errors="0" tests="1" failures="0" time="0.001" timestamp="2021-10-18T08:57:43">
+  <testcase classname="[Validate Service].[ValidateBody function].[Error values]" name="Body has not all json keys" time="0"></testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+    name: dx29-phensimilarity
+    namespace: <namespace>
+spec:
+    type: ClusterIP
+    ports:
+    - port: 8080 
+    selector:
+        app: d<deployment_name>

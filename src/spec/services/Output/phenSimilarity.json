@@ -1,0 +1,41 @@
+{
+    "totalList": {
+        "HP:0001250": {},
+        "HP:0012638": {},
+        "HP:0009115": {},
+        "others": {}
+    },
+    "getParents": {
+        "HP:0012638": "HP:0001250",
+        "HP:0000707": "HP:0012638",
+        "HP:0000118": "HP:0012638",
+        "HP:0000001": "HP:0012638",
+        "HP:0011842": "HP:0009115",
+        "HP:0000924": "HP:0009115"
+    },
+    "compare": {
+        "HP:0001250": {
+            "HP:0001250": {
+                "Similarity": "Equal",
+                "Score": 100
+            }
+        },
+        "HP:0012638": {
+            "HP:0001250": {
+                "Similarity": "Predecessor",
+                "Score": 50
+            },
+            "HP:0000118": {
+                "Similarity": "Successor",
+                "Score": 50
+            }
+        },
+        "HP:0009115": {},
+        "others": {
+            "HP:0040064": {
+                "Similarity": "None",
+                "Score": 0
+            }
+        }
+    }
+}

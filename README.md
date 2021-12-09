@@ -17,9 +17,9 @@ It is used in the [Dx29 application](https://dx29.ai/) and therefore how to inte
 It is programmed in NodeJS, and the structure of the project is as follows:
 
 >- src folder which contains the source code of the project.  
->>- The controllers folder contains the functionality to work with the previous method.
+>>- The controllers folder contains the functionality to work with the methods.
 >>- In the routes folder, all the routes of the API appear. It contains the file index.js that links with the controllers, defining the requests that will be available to the external clients.
->>- In the services folder the functionality is implemented.
+>>- In the services folder the functionality of the methods is implemented.
 >>- Some files:
 >>>- index.js: file where the app.js is loaded. It establish the port for connections and listens to requests.
 >>>- Config.js: configuration file. It contains the keys and values that can be public.
@@ -42,7 +42,7 @@ This project deppends on Dx29.Bioentity, so in config file we must include: {"f2
 
 That is, you need to have the Docker image of the Dx29.Bioentity project downloaded and deployed locally. 
 Documentation on how to do this is available at:
->- [Dx29.Bioentity](TODO._Link_github)
+>- [Dx29.Bioentity](https://github.com/foundation29org/Dx29.Bioentity)
 
 <p>&nbsp;</p>
 

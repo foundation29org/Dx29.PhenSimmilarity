@@ -57,7 +57,7 @@ Run ```npm install``` to install the dependencies.
 
 ####  3. Latest releases
 
-The latest release of the project deployed in the [Dx29 application](https://dx29.ai/) is: v0.15.00.
+The latest release of the project deployed in the [Dx29 application](https://dx29.ai/) is: v0.15.01.
 
 <p>&nbsp;</p>
 
